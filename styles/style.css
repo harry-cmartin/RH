@@ -1,0 +1,50 @@
+.menu {
+
+
+    background-color: rgb(129, 129, 136);
+    color: white;
+    height: 100vh;
+    list-style: none;
+
+
+}
+
+.menu-item {
+
+    display: block;
+    margin-left: -40px;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+}
+
+.menu-item:hover {
+
+    background-color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 1s;
+
+
+}
+
+.card {
+
+    box-shadow:  2px 2px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+
+
+}
+
+@media(max-width: 768px) {
+    .menu {
+
+        display: none;
+    }
+}
