@@ -1,7 +1,7 @@
 .menu {
 
 
-    background-color: rgb(129, 129, 136);
+    background-color: rgb(43, 43, 46);
     color: white;
     height: 100vh;
     list-style: none;
@@ -34,11 +34,69 @@
 
 .card {
 
-    box-shadow:  2px 2px 10px;
+    box-shadow: 2px 2px 10px;
     padding: 10px;
     border-radius: 10px;
     margin: 10px;
+}
 
+
+.editar {
+
+    color: gray;
+    text-align: center;
+    align-items: center;
+    margin-right: 15px;
+
+}
+
+
+.excluir {
+
+    text-align: center;
+    color: red;
+    align-items: center;
+}
+
+.editar:hover{
+    text-decoration: none;
+
+
+}
+
+.excluir:hover{
+
+    text-decoration: none;
+}
+
+.painel{
+
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 10px;
+    padding: 40px;
+
+
+}
+
+.fundo {
+    height: 100vh; /* Faz o fundo ocupar toda a tela */
+    background: linear-gradient(to bottom right, black, #444, #888, white);
+    margin: 30px;
+}
+
+
+.user{
+    font-size: 80px;
+    
+}
+
+.topo{
+
+    text-align: center;
+    margin-top: 20px;
 
 }
 
